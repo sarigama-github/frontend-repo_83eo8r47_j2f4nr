@@ -1,8 +1,8 @@
 import React from 'react';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
-import About from './components/About';
-import FeaturedWork from './components/FeaturedWork';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
       <NavBar />
       <main className="w-full">
         <Hero />
-        <About />
-        <FeaturedWork />
+        <Experience />
+        <Projects />
         <Contact />
       </main>
       <footer className="border-t border-white/10 bg-black py-8 text-center text-xs text-white/60">
